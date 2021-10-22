@@ -18,10 +18,10 @@ if ($_SERVER['SERVER_NAME'] == "localhost"){
 
 $background = "background.jpg";
 $logo = "White-Blue-Logo.png";
-$product = "hcl-career-program";
+$product = "futureproof";
 $color = "#006BB6";
-$product_name = "HCL Career Program";
-$product_name_up = "HCL CAREER PROGRAM";
+$product_name = "FutureProof";
+$product_name_up = "FUTUREPROOF";
 
 ?>
 <!DOCTYPE html>
@@ -43,7 +43,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- Title Page-->
-    <title><?=$product_name?> Application</title>
+    <title><?=$product_name?></title>
     <BASE href="<?= $base ?>">
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
     <!-- Icons font CSS-->
@@ -161,7 +161,7 @@ width:100%; height:100%; z-index:999; text-align: center; vertical-align: middle
     <div class="wrapper wrapper--w680">
         <div class="card card-4">
             <div class="card-body" style="border-bottom-style: solid; border-color:<?=$color?>; border-width:20px; border-radius:5px; padding-top:40px;">
-                <center><h1 class="title"  style="color:<?=$color?>; font-size:30px; font-weight:bold"  ><?=$product_name_up?> APPLICATION</h1></center>
+                <center><h1 class="title"  style="color:<?=$color?>; font-size:30px; font-weight:bold">SIGN UP FOR <?=$product_name_up?></h1></center>
                 <form id='signup_form' enctype="multipart/form-data">
                     <div class="row row-space">
                         <div class="col-2">
